@@ -12,8 +12,10 @@ const UseRef = (props) => {
             />
             <SectionTitle title="Exercício #01"/>
             <div className="center">
+                <span className="tex">Valor:</span>
+                <span className="text">{value1}</span>
                 <input type="text" className="input" 
-                    value={value1} onChange={e => setValue1(e => setValue1(e.target.value))}/>
+                    value={value1} onChange={e => setValue1(e.target.value)}/>
             </div>
         </div>
     )
