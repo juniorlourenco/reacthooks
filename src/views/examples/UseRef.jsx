@@ -1,5 +1,5 @@
-import React, {useState, useRef, useEffect} from 'react'
-import PageTitle from '../../components/layout/PageTitle'
+import React, {useState, useRef, useEffect} from 'react';
+import PageTitle from '../../components/layout/PageTitle';
 import SectionTitle from '../../components/layout/SectionTitle';
 
 const merge = function (s1, s2) {

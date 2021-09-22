@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import PageTitle from '../../components/layout/PageTitle'
+import React, { useEffect, useState } from 'react';
+import PageTitle from '../../components/layout/PageTitle';
 import SectionTitle from '../../components/layout/SectionTitle';
 
 function calcFatorial (num) {
