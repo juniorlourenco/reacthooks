@@ -1,6 +1,7 @@
 import React from 'react';
 
 const UseCallbackButtons = props => {
+    
     return(
         <div>
             <button 
@@ -25,4 +26,4 @@ const UseCallbackButtons = props => {
     )
 }
 
-export default UseCallbackButtons;
+export default React.memo(UseCallbackButtons);
