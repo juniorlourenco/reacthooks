@@ -5,12 +5,12 @@ import DataContext from '../../data/DataContext';
 
 const UseContext = (props) => {
 
-    const context = useContext(DataContext)
+    const { state, setState } = useContext(DataContext)
 
     function addNumber(delta) {
-        context.setState({
-            ...context.state,
-            number: context.state.number + delta
+        setState({
+            ...state,
+            number: state.number + delta
         })
     }
     return (
@@ -21,10 +21,10 @@ const UseContext = (props) => {
             />
             <div className="center">
                 <span className="text">
-                    {context.state.text}
+                    {state.text}
                 </span>
                 <span className="text">
-                    {context.state.number}
+                    {state.number}
                 </span>
                 <div>
                     <button className="btn"
